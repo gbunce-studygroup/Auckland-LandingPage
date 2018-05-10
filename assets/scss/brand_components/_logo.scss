@@ -1,0 +1,26 @@
+/* MAIN LOGO COMPONENT */
+.logo{
+	margin: $logo_margin;
+	img{
+		max-width: $logo_max_width;
+		max-height: $logo_max_height;
+	}
+}
+
+@media (min-width: $screen-lg-min){
+}
+
+@media (max-width: $screen-md-max){
+}
+
+@media (max-width: $screen-sm-max){
+	.logo{
+		margin: 0 auto;
+		margin-top: -70px;
+		margin-bottom: 10px;
+		max-width: $logo_max_width !important;
+	}
+}
+
+@media (max-width: $screen-xs-max){
+}
